@@ -60,6 +60,33 @@ p {
     width: 18rem;
 }
 
-.batch {
+.batch,
+.sub,
+.str {
+    font-size: 1rem;
     font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.time,
+.date {
+    font-size: 0.8rem;
+}
+
+.time {
+    font-weight: 700;
+}
+
+.day {
+    margin-top: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.day p {
+    color: white;
+    font-size: 0.85rem;
+    padding: 6px;
+    background-color: #6baec7;
+    clip-path: circle();
 }

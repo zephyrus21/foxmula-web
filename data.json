@@ -6,7 +6,7 @@
             "sub": "Physics",
             "strength": 100,
             "board": "ICSE",
-            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "featured"
         },
@@ -14,10 +14,10 @@
             "id": "PHY 8B",
             "name": "Piyush Pandey",
             "class": 10,
-            "sub": "Physics",
+            "sub": "Maths",
             "strength": 100,
             "board": "CBSE",
-            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "featured"
         },
@@ -29,7 +29,7 @@
             "strength": 100,
             "board": "ICSE",
 
-            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "featured"
         },
@@ -37,11 +37,23 @@
             "id": "PHY 8B",
             "name": "Piyush Pandey",
             "class": 10,
-            "sub": "Physics",
+            "sub": "Maths",
             "strength": 100,
             "board": "CBSE",
 
-            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+
+            "display": "featured"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Maths",
+            "strength": 100,
+            "board": "ICSE",
+
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "featured"
         },
@@ -53,7 +65,7 @@
             "strength": 100,
             "board": "ICSE",
 
-            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "featured"
         },
@@ -64,18 +76,7 @@
             "sub": "Physics",
             "strength": 100,
             "board": "ICSE",
-
-            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
-
-            "display": "featured"
-        },
-        {
-            "id": "PHY 8B",
-            "name": "Piyush Pandey",
-            "class": 10,
-            "sub": "Physics",
-            "strength": 100,
-            "board": "ICSE",
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "no"
         },
@@ -86,6 +87,7 @@
             "sub": "Physics",
             "strength": 100,
             "board": "ICSE",
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "no"
         },
@@ -96,6 +98,7 @@
             "sub": "Physics",
             "strength": 100,
             "board": "ICSE",
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "no"
         },
@@ -103,9 +106,10 @@
             "id": "PHY 8B",
             "name": "Piyush Pandey",
             "class": 10,
-            "sub": "Physics",
+            "sub": "Maths",
             "strength": 100,
             "board": "ICSE",
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "no"
         },
@@ -113,9 +117,10 @@
             "id": "PHY 8B",
             "name": "Piyush Pandey",
             "class": 10,
-            "sub": "Physics",
+            "sub": "Maths",
             "strength": 100,
             "board": "ICSE",
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "no"
         },
@@ -123,39 +128,10 @@
             "id": "PHY 8B",
             "name": "Piyush Pandey",
             "class": 10,
-            "sub": "Physics",
+            "sub": "Maths",
             "strength": 100,
             "board": "ICSE",
-
-            "display": "no"
-        },
-        {
-            "id": "PHY 8B",
-            "name": "Piyush Pandey",
-            "class": 10,
-            "sub": "Physics",
-            "strength": 100,
-            "board": "ICSE",
-
-            "display": "no"
-        },
-        {
-            "id": "PHY 8B",
-            "name": "Piyush Pandey",
-            "class": 10,
-            "sub": "Physics",
-            "strength": 100,
-            "board": "ICSE",
-
-            "display": "no"
-        },
-        {
-            "id": "PHY 8B",
-            "name": "Piyush Pandey",
-            "class": 10,
-            "sub": "Physics",
-            "strength": 100,
-            "board": "ICSE",
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "no"
         }
