@@ -16,6 +16,7 @@ const getFeatured = (result) => {
       var div = document.createElement('div');
       div.classList.add('featured');
       div.innerHTML = `
+      <p class="notify">${res.notify}</p>
       <p class="batch">Batch Name ${res.id}</p>
       <p class="sub">${res.sub}, ${res.class}th ${res.board}</p>
       <p class="str">${res.strength} Students</p>
@@ -38,6 +39,7 @@ const getAll = (result) => {
     var div = document.createElement('div');
     div.classList.add('all');
     div.innerHTML = `
+    <p class="notify">${res.notify}</p>
       <p class="batch">Batch Name ${res.id}</p>
       <p class="sub">${res.name}</p>
       <p class="str">${res.strength} Students</p>

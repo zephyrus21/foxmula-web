@@ -7,6 +7,7 @@
             "strength": 100,
             "board": "ICSE",
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+            "notify": 18,
 
             "display": "featured"
         },
@@ -18,7 +19,7 @@
             "strength": 100,
             "board": "CBSE",
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
-
+            "notify": 18,
             "display": "featured"
         },
         {
@@ -28,6 +29,7 @@
             "sub": "Physics",
             "strength": 100,
             "board": "ICSE",
+            "notify": 18,
 
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
@@ -40,6 +42,7 @@
             "sub": "Maths",
             "strength": 100,
             "board": "CBSE",
+            "notify": 18,
 
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
@@ -52,6 +55,7 @@
             "sub": "Maths",
             "strength": 100,
             "board": "ICSE",
+            "notify": 18,
 
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
@@ -64,6 +68,7 @@
             "sub": "Physics",
             "strength": 100,
             "board": "ICSE",
+            "notify": 18,
 
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
@@ -77,6 +82,7 @@
             "strength": 100,
             "board": "ICSE",
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+            "notify": 18,
 
             "display": "no"
         },
@@ -88,6 +94,7 @@
             "strength": 100,
             "board": "ICSE",
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+            "notify": 18,
 
             "display": "no"
         },
@@ -99,6 +106,7 @@
             "strength": 100,
             "board": "ICSE",
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+            "notify": 18,
 
             "display": "no"
         },
@@ -110,6 +118,7 @@
             "strength": 100,
             "board": "ICSE",
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+            "notify": 18,
 
             "display": "no"
         },
@@ -121,6 +130,7 @@
             "strength": 100,
             "board": "ICSE",
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+            "notify": 18,
 
             "display": "no"
         },
@@ -132,6 +142,7 @@
             "strength": 100,
             "board": "ICSE",
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+            "notify": 18,
 
             "display": "no"
         }
