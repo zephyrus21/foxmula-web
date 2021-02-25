@@ -1,0 +1,163 @@
+{
+    "data": [{
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+
+            "display": "featured"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "CBSE",
+            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+
+            "display": "featured"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+
+            "display": "featured"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "CBSE",
+
+            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+
+            "display": "featured"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+
+            "display": "featured"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "days": ["Mo", "Tu", "We", " Th", "Fr", "Sa", "su"],
+
+            "display": "featured"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "display": "no"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "display": "no"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "display": "no"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "display": "no"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "display": "no"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "display": "no"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "display": "no"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "display": "no"
+        },
+        {
+            "id": "PHY 8B",
+            "name": "Piyush Pandey",
+            "class": 10,
+            "sub": "Physics",
+            "strength": 100,
+            "board": "ICSE",
+
+            "display": "no"
+        }
+    ]
+}
