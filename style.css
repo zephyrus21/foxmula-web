@@ -9,3 +9,57 @@ p {
 #root {
     display: flex;
 }
+
+.sidebar {
+    width: 50rem;
+    background-color: #3f0e40;
+}
+
+.logo {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: 4px solid rgba(190, 190, 190, 0.459);
+}
+
+.list {
+    color: rgb(219, 219, 219);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    list-style: none;
+}
+
+.list li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.up {
+    border-bottom: 4px solid rgba(190, 190, 190, 0.459);
+}
+
+.main {
+    padding: 2rem;
+}
+
+.main-contents,
+.all-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured,
+.all {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #ebebeb;
+    border-radius: 1.4rem;
+    border: 2px solid #d4d4d4;
+    height: 12rem;
+    width: 18rem;
+}
+
+.batch {
+    font-weight: 700;
+}

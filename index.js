@@ -27,3 +27,19 @@ const getFeatured = (result) => {
     }
   });
 };
+
+const getAll = (result) => {
+  const main = document.querySelector('.all-contents');
+  const data = result.data;
+
+  data.map((res) => {
+    var div = document.createElement('div');
+    div.classList.add('all');
+    div.innerHTML = `
+      <p class="batch">Batch Name: ${res.id}</p>
+      <p class="sub">${res.sub}, ${res.class}th ${res.board}</p>
+      <p class="str">${res.strength} Students</p>
+      `;
+    main.appendChild(div);
+  });
+};
