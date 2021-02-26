@@ -118,6 +118,7 @@ input {
   flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
+  padding: 1rem 0;
 }
 
 .featured,
@@ -133,7 +134,7 @@ input {
 }
 
 .less {
-  height: 300px;
+  height: 280px;
 }
 
 .batch,
