@@ -115,6 +115,7 @@ input {
 .main-contents,
 .all-contents {
     display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;

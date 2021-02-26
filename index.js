@@ -1,3 +1,5 @@
+const daysSet = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+
 const data = fetch('./data.json')
   .then((response) => {
     return response.json();
@@ -13,7 +15,7 @@ const getFeatured = (result) => {
 
   data.map((res) => {
     if (res.display === 'featured') {
-      var div = document.createElement('div');
+      const div = document.createElement('div');
       div.classList.add('featured');
       div.innerHTML = `
       <p class="notify">${res.notify}</p>
@@ -29,6 +31,19 @@ const getFeatured = (result) => {
       main.appendChild(div);
     }
   });
+
+  // data.map((res) => {
+  //   res.days.map((day) => {
+  //     daysSet.map((daySet) => {
+  //       if (daySet === day) {
+  //         console.log(day);
+  //         document.querySelector('.day-p').classList.add('day-blue');
+  //       } else {
+  //         console.log('day');
+  //       }
+  //     });
+  //   });
+  // });
 };
 
 const getAll = (result) => {
@@ -36,7 +51,7 @@ const getAll = (result) => {
   const data = result.data;
 
   data.map((res) => {
-    var div = document.createElement('div');
+    const div = document.createElement('div');
     div.classList.add('all');
     div.innerHTML = `
     <p class="notify">${res.notify}</p>
