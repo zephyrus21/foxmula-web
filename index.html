@@ -1,64 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Foxmula</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="root">
-      <div class="sidebar">
-        <div class="logo">LOGO</div>
-        <div class="list up">
-          <li class="active">Batches</li>
-          <li>Manage Staff</li>
-          <li>Fee Summary</li>
-          <li>Institute Profile</li>
+        <div class="sidebar">
+            <div class="logo">LOGO</div>
+            <div class="list up">
+                <li class="active">Batches</li>
+                <li>Manage Staff</li>
+                <li>Fee Summary</li>
+                <li>Institute Profile</li>
+            </div>
+            <div class="list">
+                <li>Direct Message</li>
+                <li>Mentions</li>
+                <li>Bookmarked Items</li>
+            </div>
         </div>
-        <div class="list">
-          <li>Direct Message</li>
-          <li>Mentions</li>
-          <li>Bookmarked Items</li>
+        <div>
+            <div class="nav">
+                <div class="nav-top">
+                    <img class="menu" src="https://img.icons8.com/metro/26/000000/menu.png" />
+                    <h1>Manage Staff</h1>
+                    <img class="profile" src="https://images.unsplash.com/photo-1612246456644-002a44cf8d27?&auto=format&fit=crop&w=100&q=80" alt="" />
+                </div>
+                <div class="nav-bottom">
+                    <input type="text" />
+                    <button class="btn">Filters</button>
+                    <button class="btn btn-primary">New Subject</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="header">
+                    <p class="head">My Batches</p>
+                    <button class="btn btn-primary">New Subject</button>
+                </div>
+                <div class="main-contents"></div>
+                <button class="top btn btn-secondary">Show Less</button>
+                <div class="header" style="margin-top: 4rem">
+                    <p class="head">All Batches</p>
+                    <button class="btn btn-primary">New Subject</button>
+                </div>
+                <div class="all-contents"></div>
+                <button class="btm btn btn-secondary">Show Less</button>
+            </div>
         </div>
-      </div>
-      <div>
-        <div class="nav">
-          <div class="nav-top">
-            <img
-              class="menu"
-              src="https://img.icons8.com/metro/26/000000/menu.png"
-            />
-            <h1>Manage Staff</h1>
-            <img
-              class="profile"
-              src="https://images.unsplash.com/photo-1612246456644-002a44cf8d27?&auto=format&fit=crop&w=100&q=80"
-              alt=""
-            />
-          </div>
-          <div class="nav-bottom">
-            <input type="text" />
-            <button class="btn">Filters</button>
-            <button class="btn btn-primary">New Subject</button>
-          </div>
-        </div>
-        <div class="main">
-          <p>My Batches</p>
-          <div class="main-contents"></div>
-          <button class="top btn btn-secondary">Show Less</button>
-          <p>All Batches</p>
-          <div class="all-contents"></div>
-          <button class="btm btn btn-secondary">Show Less</button>
-        </div>
-      </div>
     </div>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>

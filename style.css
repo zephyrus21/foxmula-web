@@ -191,6 +191,17 @@ input {
     top: -22px;
 }
 
+.header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 @media (max-width: 950px) {
     .sidebar {
         display: none;
