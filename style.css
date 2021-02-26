@@ -16,7 +16,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 8rem;
     border-bottom: 3px solid #dedede;
     background-color: rgb(247, 247, 247);
 }
@@ -32,8 +32,9 @@ h2 {
 
 .nav-bottom {
     display: flex;
+    gap: 1rem;
     justify-content: space-around;
-    padding: 1.2rem;
+    padding: 1.2rem 1.6rem;
 }
 
 input {
@@ -46,7 +47,7 @@ input {
 }
 
 .btn {
-    padding: 0.4rem 1.2rem;
+    padding: 0.4rem 1.6rem;
     border-radius: 10px;
     background-color: #fff;
     border: 2px solid #727272;
@@ -54,6 +55,8 @@ input {
     cursor: pointer;
     font-weight: 700;
     color: #727272;
+    display: flex;
+    align-items: center;
 }
 
 .btn-primary {
@@ -88,12 +91,12 @@ input {
 }
 
 .list li {
-    padding: 0.5rem 1rem;
+    padding: 0.8rem;
     cursor: pointer;
 }
 
 .list li:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 .active {
@@ -115,7 +118,6 @@ input {
 .main-contents,
 .all-contents {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
@@ -131,7 +133,7 @@ input {
     border-radius: 1.4rem;
     border: 2px solid #d4d4d4;
     height: 12rem;
-    width: 18rem;
+    width: 20rem;
     position: relative;
 }
 
@@ -202,11 +204,18 @@ input {
     font-weight: 700;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .sidebar {
         display: none;
     }
     .menu {
         display: block;
+    }
+    .featured,
+    .all {
+        width: 16rem;
+    }
+    .nav-top {
+        padding: 0 1rem;
     }
 }
