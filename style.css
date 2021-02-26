@@ -117,6 +117,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
 }
 
 .featured,
@@ -129,6 +130,10 @@ input {
   height: 12rem;
   width: 18rem;
   position: relative;
+}
+
+.less {
+  height: 300px;
 }
 
 .batch,

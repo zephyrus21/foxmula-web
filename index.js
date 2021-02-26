@@ -53,8 +53,18 @@ const getAll = (result) => {
   });
 };
 
-const btn = document.querySelector('.btn-secondary');
+const btnTop = document.querySelector('.top');
 const main = document.querySelector('.main-contents');
-btn.addEventListener('click', () => {
+btnTop.addEventListener('click', () => {
   main.classList.toggle('less');
+  if (btnTop.innerHTML === 'Show Less') btnTop.innerHTML = 'Show More';
+  else btnTop.innerHTML = 'Show Less';
+});
+
+const btnBtm = document.querySelector('.btm');
+const all = document.querySelector('.all-contents');
+btnBtm.addEventListener('click', () => {
+  all.classList.toggle('less');
+  if (btnBtm.innerHTML === 'Show Less') btnBtm.innerHTML = 'Show More';
+  else btnBtm.innerHTML = 'Show Less';
 });
