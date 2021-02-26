@@ -52,3 +52,9 @@ const getAll = (result) => {
     main.appendChild(div);
   });
 };
+
+const btn = document.querySelector('.btn-secondary');
+const main = document.querySelector('.main-contents');
+btn.addEventListener('click', () => {
+  main.classList.toggle('less');
+});
