@@ -12,6 +12,10 @@ h2 {
     display: flex;
 }
 
+.nav {
+    margin-left: 14rem;
+}
+
 .nav-top {
     display: flex;
     justify-content: space-between;
@@ -56,6 +60,7 @@ input {
     font-weight: 700;
     color: #727272;
     display: flex;
+    gap: 0.4rem;
     align-items: center;
 }
 
@@ -71,8 +76,11 @@ input {
 }
 
 .sidebar {
-    width: 50rem;
-    background-color: #3f0e40;
+    width: 14rem;
+    height: 100vh;
+    background-color: rgb(92, 15, 92);
+    position: fixed;
+    z-index: 100;
 }
 
 .logo {
@@ -83,7 +91,7 @@ input {
 }
 
 .list {
-    color: rgb(219, 219, 219);
+    color: rgb(241, 241, 241);
     font-size: 1rem;
     font-weight: 500;
     list-style: none;
@@ -93,6 +101,10 @@ input {
 .list li {
     padding: 0.8rem;
     cursor: pointer;
+}
+
+.list i {
+    padding-right: 0.6rem;
 }
 
 .list li:not(:last-child) {
@@ -113,6 +125,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 14rem;
 }
 
 .main-contents,
@@ -157,6 +170,13 @@ input {
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.str:last-child {
+    justify-self: end;
 }
 
 .time,
@@ -196,12 +216,25 @@ input {
 .header {
     width: 90%;
     display: flex;
+    gap: 1.4rem;
     justify-content: space-between;
+    align-items: center;
 }
 
 .head {
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.line {
+    flex: 1;
+    height: 2px;
+    background-color: rgba(59, 59, 59, 0.479);
+}
+
+.i-main {
+    font-size: 1.45rem;
+    color: rgb(59, 59, 59);
 }
 
 @media (max-width: 1000px) {
@@ -217,5 +250,11 @@ input {
     }
     .nav-top {
         padding: 0 1rem;
+    }
+    .nav {
+        margin-left: 0;
+    }
+    .main {
+        margin-left: 0;
     }
 }

@@ -20,30 +20,24 @@ const getFeatured = (result) => {
       div.innerHTML = `
       <p class="notify">${res.notify}</p>
       <p class="batch">Batch Name ${res.id}</p>
-      <p class="sub">${res.sub}, ${res.class}th ${res.board}</p>
-      <p class="str">${res.strength} Students</p>
+      <div class="sub"><i class="fas i-main fa-clone"></i><p style="flex:1;"> ${
+        res.sub
+      }, ${res.class}th ${
+        res.board
+      } </p><i class="fas i-main fa-pen-square"></i></div>
+      <div class="str"><i class="fas i-main fa-user-circle"></i>
+      <p style="flex:1;">${
+        res.strength
+      } Students</p><i class="fas i-main fa-user-plus"></i></div>
       <p class="date">Upcoming Class</p>
       <p class="date">Thu, 25th May, <span class="time">12:00 PM</span></p>
       <div class="day">
-      ${res.days.map((day) => `<p>${day}</p>`).join('')}
+      ${res.days.map((day) => `<p class="day-p">${day}</p>`).join('')}
       </div>
       `;
       main.appendChild(div);
     }
   });
-
-  // data.map((res) => {
-  //   res.days.map((day) => {
-  //     daysSet.map((daySet) => {
-  //       if (daySet === day) {
-  //         console.log(day);
-  //         document.querySelector('.day-p').classList.add('day-blue');
-  //       } else {
-  //         console.log('day');
-  //       }
-  //     });
-  //   });
-  // });
 };
 
 const getAll = (result) => {
@@ -56,8 +50,14 @@ const getAll = (result) => {
     div.innerHTML = `
     <p class="notify">${res.notify}</p>
       <p class="batch">Batch Name ${res.id}</p>
-      <p class="sub">${res.name}</p>
-      <p class="str">${res.strength} Students</p>
+      <div class="sub"><i class="fas i-main fa-user"></i><p style="flex:1;"> ${
+        res.name
+      } </p><i class="fas i-main fa-pen-square"></i></div>
+
+      <div class="str"><i class="fas i-main fa-user-circle"></i>
+      <p style="flex:1;">${
+        res.strength
+      } Students</p><i class="fas i-main fa-user-plus"></i></div>
       <p class="date">Upcoming Class</p>
       <p class="date">Thu, 25th May, <span class="time">12:00 PM</span></p>
       <div class="day">

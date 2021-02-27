@@ -12,7 +12,7 @@
             "display": "featured"
         },
         {
-            "id": "PHY 8B",
+            "id": "MTH 2C",
             "name": "Piyush Pandey",
             "class": 10,
             "sub": "Maths",
@@ -23,7 +23,7 @@
             "display": "featured"
         },
         {
-            "id": "PHY 8B",
+            "id": "PHY 7D",
             "name": "Piyush Pandey",
             "class": 10,
             "sub": "Physics",
@@ -36,7 +36,7 @@
             "display": "featured"
         },
         {
-            "id": "PHY 8B",
+            "id": "MTH 4B",
             "name": "Piyush Pandey",
             "class": 10,
             "sub": "Maths",
@@ -49,14 +49,13 @@
             "display": "featured"
         },
         {
-            "id": "PHY 8B",
+            "id": "MTH 8B",
             "name": "Piyush Pandey",
             "class": 10,
             "sub": "Maths",
             "strength": 100,
             "board": "ICSE",
             "notify": 18,
-
             "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
 
             "display": "featured"

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Foxmula</title>
@@ -16,15 +17,15 @@
         <div class="sidebar">
             <div class="logo">LOGO</div>
             <div class="list up">
-                <li class="active">Batches</li>
-                <li>Manage Staff</li>
-                <li>Fee Summary</li>
-                <li>Institute Profile</li>
+                <li class="active"><i class="fas fa-users"></i> Batches</li>
+                <li><i class="fas fa-users"></i> Manage Staff</li>
+                <li><i class="fas fa-users"></i> Fee Summary</li>
+                <li><i class="fas fa-users"></i> Institute Profile</li>
             </div>
             <div class="list">
-                <li>Direct Message</li>
-                <li>Mentions</li>
-                <li>Bookmarked Items</li>
+                <li><i class="fas fa-comment"></i> Direct Message</li>
+                <li><i class="fas fa-at"></i> Mentions</li>
+                <li><i class="fas fa-bookmark"></i> Bookmarked Items</li>
             </div>
         </div>
         <div>
@@ -36,20 +37,28 @@
                 </div>
                 <div class="nav-bottom">
                     <input type="text" />
-                    <button class="btn">Filters</button>
-                    <button class="btn btn-primary">New Subject</button>
+                    <button class="btn"><i class="fas fa-filter"></i> Filters</button>
+                    <button class="btn btn-primary">
+              <i class="fas fa-plus"></i> New Subject
+            </button>
                 </div>
             </div>
             <div class="main">
                 <div class="header">
                     <p class="head">My Batches</p>
-                    <button class="btn btn-primary">New Subject</button>
+                    <hr class="line" />
+                    <button class="btn btn-primary">
+              <i class="fas fa-plus"></i> New Batch
+            </button>
                 </div>
                 <div class="main-contents"></div>
                 <button class="top btn btn-secondary">Show Less</button>
                 <div class="header" style="margin-top: 4rem">
                     <p class="head">All Batches</p>
-                    <button class="btn btn-primary">New Subject</button>
+                    <hr class="line" />
+                    <button class="btn btn-primary">
+              <i class="fas fa-plus"></i> New Batch
+            </button>
                 </div>
                 <div class="all-contents"></div>
                 <button class="btm btn btn-secondary">Show Less</button>
